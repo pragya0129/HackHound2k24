@@ -58,7 +58,7 @@ function App() {
     return (
       <nav className="navbar">
         <div className="logo">
-          <img src="/Images/file_2024-02-28_15.06.46.png"></img>
+          <img src="Images/hackhoundlogowhite.png"></img>
         </div>
         <button className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
@@ -194,7 +194,7 @@ function App() {
         <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
-          <SponsorCard image="Images/_Colored.png" alt="DEVFOLIO LOGO" />
+          <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
           <SponsorCard image="Images/Colored.png" alt="POLYGON LOGO" />
           <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
           <SponsorCard image="Images/finlatics.png" alt="" />

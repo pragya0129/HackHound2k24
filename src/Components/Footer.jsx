@@ -26,7 +26,7 @@ function Footer() {
             className="btn"
           >
             <img
-              src="/Images/placeholder.png"
+              src="Images/placeholder.png"
               className="btn-img"
               alt="Google Maps"
             ></img>
@@ -45,7 +45,7 @@ function Footer() {
           referrerPolicy="no-referrer-when-downgrade"
           title="Google Maps"
         ></iframe> */}
-        <img src="/Images/srm-compas.jpg"></img>
+        <img src="Images/srm.jpg"></img>
       </div>
     </footer>
   );
