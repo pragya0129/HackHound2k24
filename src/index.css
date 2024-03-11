@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: rgba(255, 255, 255, 0.87);
-  background: url("/Images/bgabstract.jpg");
+  background: url("https://hackhound.tech/Images/bgabstract.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #ffffff;
-    background: url("/Images/bgabstract.jpg");
+    background: url("https://hackhound.tech/Images/bgabstract.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -85,7 +85,7 @@ h2 {
   align-items: center;
   background-position: center;
   flex-direction: column;
-  background: url("Images/top.gif");
+  background: url("https://hackhound.tech/Images/top.gif");
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -841,6 +841,6 @@ footer {
 
   .top {
     background-position: center; /* Ensures the background is centered */
-    background: url("Images/mobile.gif");
+    background: url("https://hackhound.tech/Images/mobile.gif");
   }
 }
