@@ -14,7 +14,10 @@ function About() {
             its diversified event calendar, which provides opportunities for
             students to solve real-world challenges.
           </p>
-          <img src="Images/Hackhound logo.jpeg" width="140px"></img>
+          <img
+            src="Images/Hackhound logo.jpeg"
+            width="140px"
+          ></img>
         </div>
       </div>
     </div>

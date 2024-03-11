@@ -194,10 +194,22 @@ function App() {
         <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
-          <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
-          <SponsorCard image="Images/Colored.png" alt="POLYGON LOGO" />
-          <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
-          <SponsorCard image="Images/finlatics.png" alt="" />
+          <SponsorCard
+            image="/HackHound2k24/public/Images/DevColored.png"
+            alt="DEVFOLIO LOGO"
+          />
+          <SponsorCard
+            image="/HackHound2k24/public/Images/Colored.png"
+            alt="POLYGON LOGO"
+          />
+          <SponsorCard
+            image="/HackHound2k24/public/Images/Untitled.png"
+            alt="ETHINDIA LOGO"
+          />
+          <SponsorCard
+            image="/HackHound2k24/public/Images/finlatics.png"
+            alt=""
+          />
         </div>
 
         <div className="participate">
@@ -208,7 +220,11 @@ function App() {
               title="Pickup and Drop"
               description=""
             /> */}
-            <Card2 image="Images/mentors.gif" title="Mentors" description="" />
+            <Card2
+              image="Images/mentors.gif"
+              title="Mentors"
+              description=""
+            />
             <Card2
               image="Images/problem-solving.gif"
               title="Problem Cases"
@@ -233,14 +249,6 @@ function App() {
         </div>
 
         <br></br>
-        <hr></hr>
-        <div className="gallery" id="gallery">
-          <h2>HackHound 2k23 Flashback</h2>
-          <RegistrationCounter />
-          <PrizeCounter />
-          <h4>Recalling Moments of Inspiration</h4>
-          <Gallery />
-        </div>
 
         {/* <section className="register-btn">
           <a href="#">
@@ -252,77 +260,81 @@ function App() {
           </a>
         </section> */}
         <br></br>
-        <div className="PastSp">
+        {/* <div className="PastSp">
           <h2>Past Sponsors</h2>
           <div className="cards">
-            <SponsorCard image="Images/Mlh-logo-color.svg.png" />
-            <SponsorCard image="Images//devfolio.png" />
-            <SponsorCard image="Images//Polygon_blockchain_logo.png" />
-            <SponsorCard image="Images//filecoinio-ar21.png" />
-            <SponsorCard image="Images//solana-sol9611.jpg" />
-            <SponsorCard image="Images//replit.png" />
-            <SponsorCard image="Images//interview-cake.jpg" />
-            <SponsorCard image="Images//axure2644.jpg" />
+            <SponsorCard image="/HackHound2k24/public/Images/Mlh-logo-color.svg.png" />
+            <SponsorCard image="/HackHound2k24/public/Images//devfolio.png" />
+            <SponsorCard image="/HackHound2k24/public/Images//Polygon_blockchain_logo.png" />
+            <SponsorCard image="/HackHound2k24/public/Images//filecoinio-ar21.png" />
+            <SponsorCard image="/HackHound2k24/public/Images//solana-sol9611.jpg" />
+            <SponsorCard image="/HackHound2k24/public/Images//replit.png" />
+            <SponsorCard image="/HackHound2k24/public/Images//interview-cake.jpg" />
+            <SponsorCard image="/HackHound2k24/public/Images//axure2644.jpg" />
           </div>
-        </div>
+        </div> */}
 
         <div className="PastJudges">
-          <h2>Past Judges</h2>
+          <h2>Judges</h2>
           <div className="cards">
             <Card
-              image="Images/Pawan Kumar.jpg"
-              title="Pawan Kumar"
-              description="Head of Engineering - Frontier"
-              link="https://www.linkedin.com/in/imthepk/"
+              image="Images/Mentors/1646152713583.jfif"
+              title="Gunjan Maddan"
+              description="SDE@Microsoft | Ex-Paytm"
+              link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
-              image="Images/Shubham Jain.jpg"
-              title="Shubham Jain"
-              description="Flutter Engineer at Frontier"
+              image="Images/Mentors/1672233980549.jfif"
+              title="Mahima Hans"
+              link="https://www.linkedin.com/in/mahima-hans-3b9976155
+              "
+              description="FSoftware Engineer, Adobe | Ex-Microsoft"
             />
             <Card
-              image="Images/Pranav Malik.jpg"
-              title="Pranav Malik"
-              description="SDE-2 at Microsoft"
-              link="https://www.linkedin.com/in/candidatepstx-95adfsdk23"
-            />
-            <Card
-              image="Images/Ramit Swawhney.jpg"
-              title="Ramit Sawhney"
-              description="Engineer Manager at Tower Research"
-              link="https://www.linkedin.com/in/ramit-sawhney/"
+              image="Images/Mentors/1671115311576.jfif"
+              title="Rishika Gupta
+              "
+              description="Former Product Intern @Adobe"
+              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
           </div>
 
-          <h2>Past Mentors</h2>
+          <h2>Mentors</h2>
           <div className="cards">
             <Card
-              image="Images/pooja gera.jpg"
-              title="Pooja Gera"
-              description="SWE'23@PoloAltoNetworks"
-              link="https://www.linkedin.com/in/pooja-gera/"
+              image="Images/Mentors/image.png"
+              title="Aneesh Gupta"
+              description="Top Doubt Resolver @Pepcoding"
+              link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
             />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
             <Card
-              image="Images/srishti gureja.jpg"
-              title="Srishti Gureja"
-              description="NLP+Differential Privacy @Translated"
-              link="https://www.linkedin.com/in/srishti-gureja-a51841171/"
+              image="Images/Mentors/1684875661492.jfif"
+              title="Pulkit Batra"
+              description="Consultant - Deloitte USI | Ex-Accenture"
+              link="https://www.linkedin.com/in/pulkitbxtra"
             />
             {/* <Card image="public\Images\Divyansh Gandhi.jpg" title="Divyansh Gandhi" description="Founder of Stimuli Technologies || Flutter Lead at LikeMinds"/> */}
             <Card
-              image="Images/Aastha.jpg"
-              title="Aastha"
-              description="Data Engineer @Fractal.ai"
-              link="https://www.linkedin.com/in/aasthaio/"
+              image="Images/Mentors/1673339274926.jfif"
+              title="Nitya Pasrija"
+              description="Upcoming SWE Intern @Microsoft"
+              link="https://www.linkedin.com/in/nitya-pasrija/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
-              image="Images/ishika kesarwani.jpg"
-              title="Ishika Kesarwani"
-              description="Community Manager at Altogics"
-              link="https://www.linkedin.com/in/ishika-kesarwani/"
+              image="Images/Mentors/1682858364824.jfif"
+              title="Pranav Chauhan"
+              description="Cofounder @ UIspace.IO"
+              link="https://www.linkedin.com/in/pranav-chauhan-217bb11b9"
             />
           </div>
+        </div>
+        <hr></hr>
+
+        <div className="gallery" id="gallery">
+          <h2>HackHound 2k23 Flashback</h2>
+          <RegistrationCounter />
+          <PrizeCounter />
           <h3>
             Click here to know more about{" "}
             <a
@@ -332,7 +344,10 @@ function App() {
               HackHound 2k23
             </a>
           </h3>
+          <h4>Recalling Moments of Inspiration</h4>
+          <Gallery />
         </div>
+
         <div className="team">
           <br></br>
           <h2>Club Coordinator</h2>

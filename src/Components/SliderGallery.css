@@ -1,15 +1,33 @@
 .slider-gallery {
   position: relative;
-  width: 80%; 
-  height: 500px; 
+  width: 80%;
+  height: 500px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
 .gallery-image {
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.main-image {
   width: auto;
-  height: 100%; 
-  object-fit: contain; 
+  flex: 3;
+}
+
+.side-image {
+  width: auto;
+  flex-grow: 1;
+  opacity: 0.5;
+  border-radius: 10px;
+  margin: 0 20px;
+  transform: scale(0.8);
+  z-index: 0;
 }
 
 .prev-btn,
@@ -22,6 +40,7 @@
   border: none;
   padding: 10px 15px;
   cursor: pointer;
+  z-index: 2;
   transition: background-color 0.3s ease;
 }
 

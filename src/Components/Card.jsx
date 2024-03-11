@@ -11,7 +11,10 @@ function Card({ image, title, description, link }) {
         <p>{description}</p>
       </div>
       <a onClick={handleClick}>
-        <img className="linkedin" src="Images/linkedin.png" />
+        <img
+          className="linkedin"
+          src="Images/linkedin.png"
+        />
       </a>
     </div>
   );

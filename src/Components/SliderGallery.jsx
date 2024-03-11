@@ -7,7 +7,7 @@ function SliderGallery({ images }) {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); 
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, [images.length]);
@@ -22,14 +22,34 @@ function SliderGallery({ images }) {
     );
   };
 
+  // Calculate previous and next image indices
+  const prevImageIndex =
+    currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1;
+  const nextImageIndex = (currentImageIndex + 1) % images.length;
+
   return (
     <div className="slider-gallery">
-  
+      {/* <button className="prev-btn" onClick={prevImage}>
+        &lt;
+      </button> */}
+      <img
+        src={images[prevImageIndex]}
+        alt="Previous"
+        className="gallery-image side-image"
+      />
       <img
         src={images[currentImageIndex]}
-        alt="Gallery"
-        className="gallery-image"
+        alt="Current"
+        className="gallery-image main-image"
       />
+      <img
+        src={images[nextImageIndex]}
+        alt="Next"
+        className="gallery-image side-image"
+      />
+      {/* <button className="next-btn" onClick={nextImage}>
+        &gt;
+      </button> */}
     </div>
   );
 }
