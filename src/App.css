@@ -763,6 +763,15 @@ footer {
   justify-content: center;
 }
 
+.internship {
+  color: gold;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.win {
+  font-size: 2rem;
+}
+
 .animtext {
   animation: blurFadeInOut 2s infinite alternate,
     blurFadeIn 3s infinite alternate;
@@ -842,5 +851,12 @@ footer {
   .top {
     background-position: center; /* Ensures the background is centered */
     background: url("https://hackhound.tech/Images/mobile.gif");
+  }
+
+  .internship {
+    font-size: 3rem;
+  }
+  .win {
+    font-size: 1rem;
   }
 }

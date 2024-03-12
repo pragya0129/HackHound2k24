@@ -198,7 +198,14 @@ function App() {
         <div className="cards">
           <WinnerCard />
         </div>
-        <h4>Chance to win INTERNSHIPS with PPO</h4>
+        <h3 className="win">
+          Chance to win<br></br> <span className="internship">INTERNSHIPS</span>
+          <br></br> with
+          <span className="internship">
+            <br></br>PPO
+          </span>
+          <br></br> opportunity
+        </h3>
         <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
