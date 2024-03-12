@@ -279,7 +279,7 @@ function App() {
           <div className="cards">
             <Card
               image="Images/Mentors/1646152713583.jfif"
-              title="Gunjan Maddan"
+              title="Gunjan Madaan"
               description="SDE 2 @Microsoft"
               link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
@@ -338,7 +338,7 @@ function App() {
             <Card
               image="Images/Mentors/1700223171861.jfif"
               title="Vani Mittal"
-              description="Gold Microsoft Learn Student Ambassador"
+              description="Gold MLSA, Full Stack developer at Talent Serve"
               link="https://www.linkedin.com/in/vani-mi-ttal"
             />
             <Card
