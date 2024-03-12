@@ -201,9 +201,7 @@ function App() {
         <h3 className="win">
           Chance to win<br></br> <span className="internship">INTERNSHIPS</span>
           <br></br> with<br></br>
-          <span className="internship">
-            PPO
-          </span>
+          <span className="internship">PPO</span>
           <br></br> opportunity
         </h3>
         <br></br>
@@ -320,7 +318,7 @@ function App() {
             <Card
               image="Images/Mentors/1707051118285.jfif"
               title="Madhur Agrawal"
-              description="TensorFlow Developer"
+              description="Upcoming Analyst @ Deloitte India"
               link="https://www.linkedin.com/in/madhuragl"
             />
             <Card
@@ -340,13 +338,13 @@ function App() {
             <Card
               image="Images/Mentors/1700223171861.jfif"
               title="Vani Mittal"
-              description="Full Stack Web Developer"
+              description="Gold Microsoft Learn Student Ambassador"
               link="https://www.linkedin.com/in/vani-mi-ttal"
             />
             <Card
               image="Images/Mentors/image.png"
               title="Aneesh Gupta"
-              description="Udacity NanoDegree Scholar (Frontend)"
+              description="Udacity NanoDegree Scholar"
               link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
             />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
