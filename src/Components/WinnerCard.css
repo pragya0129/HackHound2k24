@@ -64,17 +64,19 @@
   .winners-container {
     flex-direction: column; /* Stack cards vertically */
     height: auto; /* Remove fixed height */
-    margin-top: 20px;
   }
+
   .one {
     order: 1; /* Winner card comes first */
   }
 
   .two {
     order: 2; /* 1st runner-up card comes second */
+    margin-top: 60px;
   }
 
   .three {
     order: 3; /* 2nd runner-up card comes third */
+    margin-top: 60px;
   }
 }

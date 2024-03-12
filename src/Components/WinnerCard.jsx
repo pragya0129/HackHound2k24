@@ -1,8 +1,6 @@
 import "./WinnerCard.css";
 
 const WinnerCard = () => {
-  
-
   return (
     <div className="winners-container">
       <div className="winnercard two">
