@@ -334,9 +334,9 @@ function App() {
             />
             <Card
               image="Images/Mentors/image.png"
-              title="Prashant Rai"
-              description="Co-Founder and Mentor @Technocrats"
-              link="https://www.linkedin.com/in/prashant-rai-5a726822a"
+              title="Aneesh Gupta"
+              description="Udacity NanoDegree Scholar (Frontend)"
+              link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
             />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
             {/* <Card image="public\Images\Divyansh Gandhi.jpg" title="Divyansh Gandhi" description="Founder of Stimuli Technologies || Flutter Lead at LikeMinds"/> */}
