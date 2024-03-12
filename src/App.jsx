@@ -13,6 +13,7 @@ import About from "./Pages/About";
 import RegistrationCounter from "./Components/RegistrationCounter";
 import PrizeCounter from "./Components/PrizeCounter";
 import Card2 from "./Components/Card2";
+import WinnerCard from "./Components/WinnerCard";
 
 function App() {
   const images = [
@@ -192,12 +193,20 @@ function App() {
 
         <Footer />
         <br></br>
+        <h2>Prizes</h2>
+        <br></br>
+        <div className="cards">
+          <WinnerCard />
+        </div>
         <h2>Sponsors</h2>
         <div className="cards">
           <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
           <SponsorCard image="Images/Colored.png" alt="POLYGON LOGO" />
           <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
           <SponsorCard image="Images/finlatics.png" alt="" />
+          <SponsorCard image="Images/cblogo-black.png" alt="" />
+          <SponsorCard image="Images/Jamboree-logo.png" alt="" />
+          <SponsorCard image="Images/interview-cake.jpg" alt="" />
         </div>
 
         <div className="participate">
@@ -264,41 +273,45 @@ function App() {
             <Card
               image="Images/Mentors/1646152713583.jfif"
               title="Gunjan Maddan"
-              description="SDE@Microsoft | Ex-Paytm"
+              description="SDE 2 @Microsoft"
               link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
-              image="Images/Mentors/1672233980549.jfif"
-              title="Mahima Hans"
+              image="Images/Mentors/1664792642994.jfif"
+              title="Vaibhav Garg
+              "
               link="https://www.linkedin.com/in/mahima-hans-3b9976155
               "
-              description="FSoftware Engineer, Adobe | Ex-Microsoft"
+              description="
+              Senior Software Engineer - II @SplashLearn"
             />
             <Card
               image="Images/Mentors/1671115311576.jfif"
               title="Rishika Gupta
               "
-              description="Former Product Intern @Adobe"
+              description="
+              Software Engineer @LinkedIn"
+              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
+            <Card
+              image="Images/Mentors/1642883534969.jfif"
+              title="Varun Kholi
+
+              "
+              description="
+              Co-Founder @Coding Blocks"
               link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
           </div>
-
+          {/* GM, vaibhav garg, rishika , vaibhav kolhi */}
           <h2>Mentors</h2>
           <div className="cards">
             <Card
-              image="Images/Mentors/image.png"
-              title="Aneesh Gupta"
-              description="Top Doubt Resolver @Pepcoding"
-              link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
+              image="Images/Mentors/1707051118285.jfif"
+              title="Madhur Agarwal"
+              description="TensorFlow Developer"
+              link="https://www.linkedin.com/in/madhuragl"
             />
-            {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
-            <Card
-              image="Images/Mentors/1684875661492.jfif"
-              title="Pulkit Batra"
-              description="Consultant - Deloitte USI | Ex-Accenture"
-              link="https://www.linkedin.com/in/pulkitbxtra"
-            />
-            {/* <Card image="public\Images\Divyansh Gandhi.jpg" title="Divyansh Gandhi" description="Founder of Stimuli Technologies || Flutter Lead at LikeMinds"/> */}
             <Card
               image="Images/Mentors/1673339274926.jfif"
               title="Nitya Pasrija"
@@ -312,7 +325,24 @@ function App() {
               link="https://www.linkedin.com/in/pranav-chauhan-217bb11b9"
             />
           </div>
+          <div className="cards">
+            <Card
+              image="Images/Mentors/1700223171861.jfif"
+              title="Vani Mittal"
+              description="Full Stack Web Developer"
+              link="https://www.linkedin.com/in/vani-mi-ttal"
+            />
+            <Card
+              image="Images/Mentors/image.png"
+              title="Prashant Rai"
+              description="Co-Founder and Mentor @Technocrats"
+              link="https://www.linkedin.com/in/prashant-rai-5a726822a"
+            />
+            {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
+            {/* <Card image="public\Images\Divyansh Gandhi.jpg" title="Divyansh Gandhi" description="Founder of Stimuli Technologies || Flutter Lead at LikeMinds"/> */}
+          </div>
         </div>
+
         <hr></hr>
 
         <div className="gallery" id="gallery">
