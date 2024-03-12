@@ -200,9 +200,9 @@ function App() {
         </div>
         <h3 className="win">
           Chance to win<br></br> <span className="internship">INTERNSHIPS</span>
-          <br></br> with
+          <br></br> with<br></br>
           <span className="internship">
-            <br></br>PPO
+            PPO
           </span>
           <br></br> opportunity
         </h3>
