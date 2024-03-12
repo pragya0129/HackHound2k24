@@ -280,7 +280,7 @@ function App() {
               image="Images/Mentors/1664792642994.jfif"
               title="Vaibhav Garg
               "
-              link="https://www.linkedin.com/in/mahima-hans-3b9976155
+              link="https://www.linkedin.com/in/vaibhav-garg-a687bbb9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
               "
               description="
               Senior Software Engineer - II @SplashLearn"
@@ -300,7 +300,9 @@ function App() {
               "
               description="
               Co-Founder @Coding Blocks"
-              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              link="https://www.linkedin.com/in/kohli12?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FkDQmdkQQ2%2Bg%2BA3C2ETUlg%3D%3D
+
+              "
             />
           </div>
           {/* GM, vaibhav garg, rishika , vaibhav kolhi */}
