@@ -295,7 +295,7 @@ function App() {
             />
             <Card
               image="Images/Mentors/1642883534969.jfif"
-              title="Varun Kholi
+              title="Varun Kohli
 
               "
               description="
