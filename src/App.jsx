@@ -198,6 +198,8 @@ function App() {
         <div className="cards">
           <WinnerCard />
         </div>
+        <h4>Chance to win INTERNSHIPS with PPO</h4>
+        <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
           <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
