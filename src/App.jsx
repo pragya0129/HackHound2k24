@@ -310,7 +310,7 @@ function App() {
           <div className="cards">
             <Card
               image="Images/Mentors/1707051118285.jfif"
-              title="Madhur Agarwal"
+              title="Madhur Agrawal"
               description="TensorFlow Developer"
               link="https://www.linkedin.com/in/madhuragl"
             />
