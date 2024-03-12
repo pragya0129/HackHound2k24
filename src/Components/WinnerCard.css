@@ -40,6 +40,19 @@
   font-style: normal;
   font-size: 70px;
   margin: 0;
+  z-index: inherit;
+}
+
+.one p{
+  color: gold;
+}
+
+.two p{
+  color: silver;
+}
+
+.three p{
+  color: rgb(248, 132, 0);
 }
 
 .winnercard img {
