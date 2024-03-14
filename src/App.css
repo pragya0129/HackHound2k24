@@ -455,6 +455,10 @@ p {
   color: #acacac;
 }
 
+.sponsorcard {
+  min-height: 30px;
+}
+
 #countdown {
   font-size: 36px;
   margin-top: 10px;
@@ -500,7 +504,7 @@ p {
   font: 20%;
 }
 
-.card2{
+.card2 {
   min-height: 280px;
 }
 
