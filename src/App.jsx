@@ -403,6 +403,8 @@ function App() {
               title="Pragya Gaur"
               description="Technical Manager"
             />
+          </div>
+          <div className="cards">
             <Card2
               image="Images/Team/Sara.jpg"
               title="Sara Mishra"
