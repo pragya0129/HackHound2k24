@@ -344,7 +344,7 @@ function App() {
             <Card
               image="Images/Mentors/image.png"
               title="Aneesh Gupta"
-              description="Udacity NanoDegree Scholar"
+              description="Upcoming Intern @Google"
               link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
             />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
@@ -380,6 +380,43 @@ function App() {
               title="Dr. Oshin Sharma"
               link="https://www.linkedin.com/in/dr-oshin-sharma-99142017"
               description="Associate Professor Department of CSE, SRMIST "
+            />
+          </div>
+        </div>
+
+        <div className="team">
+          <br></br>
+          <h2>Our Team</h2>
+          <div className="cards">
+            <Card2
+              image="/public/Images/Team/Harshiya.jpeg"
+              title="Harshiya Saxena"
+              description="Event Manager"
+            />
+            <Card2
+              image="/public/Images/Team/Kushagra.jpeg"
+              title="Kushagra Sharma"
+              description="Finance Manager"
+            />
+            <Card2
+              image="/public/Images/Team/Pragya.png"
+              title="Pragya Gaur"
+              description="Technical Manager"
+            />
+            <Card2
+              image="/public/Images/Team/Sara.jpg"
+              title="Sara Mishra"
+              description="PR and Marketing Manager"
+            />
+            <Card2
+              image="/public/Images/Team/Prakhar.jpeg"
+              title="Prakhar Agarwal"
+              description="Logistic Manager"
+            />
+            <Card2
+              image="/public/Images/Team/Abhijeet.jpg"
+              title="Abhijeet Sharma"
+              description="Resource Manager"
             />
           </div>
         </div>
