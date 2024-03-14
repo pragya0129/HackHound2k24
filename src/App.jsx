@@ -389,32 +389,32 @@ function App() {
           <h2>Our Team</h2>
           <div className="cards">
             <Card2
-              image="/public/Images/Team/Harshiya.jpeg"
+              image="Images/Team/Harshiya.jpeg"
               title="Harshiya Saxena"
               description="Event Manager"
             />
             <Card2
-              image="/public/Images/Team/Kushagra.jpeg"
+              image="Images/Team/Kushagra.jpeg"
               title="Kushagra Sharma"
               description="Finance Manager"
             />
             <Card2
-              image="/public/Images/Team/Pragya.png"
+              image="Images/Team/Pragya.png"
               title="Pragya Gaur"
               description="Technical Manager"
             />
             <Card2
-              image="/public/Images/Team/Sara.jpg"
+              image="Images/Team/Sara.jpg"
               title="Sara Mishra"
               description="PR and Marketing Manager"
             />
             <Card2
-              image="/public/Images/Team/Prakhar.jpeg"
+              image="Images/Team/Prakhar.jpeg"
               title="Prakhar Agarwal"
               description="Logistic Manager"
             />
             <Card2
-              image="/public/Images/Team/Abhijeet.jpg"
+              image="Images/Team/Abhijeet.jpg"
               title="Abhijeet Sharma"
               description="Resource Manager"
             />
