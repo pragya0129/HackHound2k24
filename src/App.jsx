@@ -445,7 +445,7 @@ function App() {
         />
         <SocialButton
           imageUrl="Images/discord.png"
-          link="https://discord.gg/c8rGTQcJ"
+          link="https://discord.gg/MzzeDqwswE"
         />
 
         <p className="copyright">&copy; 2024 Copyright: HackHound 2024</p>
