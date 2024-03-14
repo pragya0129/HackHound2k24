@@ -204,6 +204,10 @@ function App() {
           <span className="internship">PPO</span>
           <br></br> opportunity
         </h3>
+        <h4>
+          More prizes for the top-3 teams are to be added above and additional
+          sponsored prizes will be announced soon..
+        </h4>
         <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
@@ -389,6 +393,16 @@ function App() {
           <h2>Our Team</h2>
           <div className="cards">
             <Card2
+              image="Images/Team/Dhruv.jpeg"
+              title="Dhruv Kalra"
+              description="Advisor"
+            />
+            <Card2
+              image="Images/Team/Sahil.jpeg"
+              title="Sahil Pahwa"
+              description="Advisor"
+            />
+            <Card2
               image="Images/Team/Harshiya.jpeg"
               title="Harshiya Saxena"
               description="Event Manager"
@@ -398,6 +412,8 @@ function App() {
               title="Kushagra Sharma"
               description="Finance Manager"
             />
+          </div>
+          <div className="cards">
             <Card2
               image="Images/Team/Pragya.png"
               title="Pragya Gaur"
@@ -408,8 +424,6 @@ function App() {
               title="Sara Mishra"
               description="PR and Marketing Manager"
             />
-          </div>
-          <div className="cards">
             <Card2
               image="Images/Team/Prakhar.jpeg"
               title="Prakhar Agarwal"
@@ -419,16 +433,6 @@ function App() {
               image="Images/Team/Abhijeet.jpg"
               title="Abhijeet Sharma"
               description="Resource Manager"
-            />
-            <Card2
-              image="Images/Team/Dhruv.jpeg"
-              title="Dhruv Kalra"
-              description="Advisory Manager"
-            />
-            <Card2
-              image="Images/Team/Sahil.jpeg"
-              title="Sahil Pahwa"
-              description="Advisory Manager"
             />
           </div>
         </div>
