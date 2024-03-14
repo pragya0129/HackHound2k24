@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 function Card2({ image, title, description, link }) {
   return (
-    <div className="card">
+    <div className="card card2">
       <img src={image} alt={title} />
       <div className="card-content">
         <h2>{title}</h2>

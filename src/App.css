@@ -493,12 +493,15 @@ p {
   margin: 10px;
   padding: 20px;
   min-width: 200px;
-  min-height: 263px;
   box-shadow: 0 0 40px rgb(255, 255, 255);
   text-align: center;
   align-items: center;
   max-width: 200px;
   font: 20%;
+}
+
+.card2{
+  min-height: 280px;
 }
 
 .register-btn a {

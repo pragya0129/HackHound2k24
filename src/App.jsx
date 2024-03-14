@@ -403,13 +403,13 @@ function App() {
               title="Pragya Gaur"
               description="Technical Manager"
             />
-          </div>
-          <div className="cards">
             <Card2
               image="Images/Team/Sara.jpg"
               title="Sara Mishra"
               description="PR and Marketing Manager"
             />
+          </div>
+          <div className="cards">
             <Card2
               image="Images/Team/Prakhar.jpeg"
               title="Prakhar Agarwal"
@@ -419,6 +419,16 @@ function App() {
               image="Images/Team/Abhijeet.jpg"
               title="Abhijeet Sharma"
               description="Resource Manager"
+            />
+            <Card2
+              image="Images/Team/Dhruv.jpeg"
+              title="Dhruv Kalra"
+              description="Advisory Manager"
+            />
+            <Card2
+              image="Images/Team/Sahil.jpeg"
+              title="Sahil Pahwa"
+              description="Advisory Manager"
             />
           </div>
         </div>
