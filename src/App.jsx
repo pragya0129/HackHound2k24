@@ -399,7 +399,7 @@ function App() {
               description="Advisor"
             />
             <Card2
-              image="Images/Team/sahil.jpeg"
+              image="Images/Team/Sahil.jpeg"
               title="Sahil Pahwa"
               description="Advisor"
             />
