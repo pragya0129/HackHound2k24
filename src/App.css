@@ -866,6 +866,12 @@ footer {
     font-size: 3rem;
   }
   .win {
-    font-size: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .moreprizes {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
   }
 }

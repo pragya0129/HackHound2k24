@@ -198,16 +198,17 @@ function App() {
         <div className="cards">
           <WinnerCard />
         </div>
+        <h4 className="moreprizes">
+          * More prizes for the top-3 teams are to be added above and additional
+          sponsored prizes will be announced soon..
+        </h4>
         <h3 className="win">
           Chance to win<br></br> <span className="internship">INTERNSHIPS</span>
           <br></br> with<br></br>
           <span className="internship">PPO</span>
           <br></br> opportunity
         </h3>
-        <h4>
-          More prizes for the top-3 teams are to be added above and additional
-          sponsored prizes will be announced soon..
-        </h4>
+
         <br></br>
         <h2>Sponsors</h2>
         <div className="cards">
@@ -398,7 +399,7 @@ function App() {
               description="Advisor"
             />
             <Card2
-              image="Images/Team/Sahil.jpeg"
+              image="Images/Team/sahil.jpeg"
               title="Sahil Pahwa"
               description="Advisor"
             />
