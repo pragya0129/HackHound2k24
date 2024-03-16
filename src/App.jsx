@@ -285,7 +285,7 @@ function App() {
             <Card
               image="Images/Mentors/1646152713583.jfif"
               title="Gunjan Madaan"
-              description="                                         SDE 2 @Microsoft"
+              description="SDE 2 @Microsoft"
               link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
