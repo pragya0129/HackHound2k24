@@ -316,6 +316,15 @@ function App() {
 
               "
             />
+            <Card
+              image="Images/Mentors/1702140582904.jfif"
+              title="Kartik Mathur
+
+              "
+              description="
+              Founding Member @Coding Blocks"
+              link="https://www.linkedin.com/in/kartik-mathur/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           {/* GM, vaibhav garg, rishika , vaibhav kolhi */}
           <h2>Mentors</h2>
