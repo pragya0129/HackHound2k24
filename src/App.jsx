@@ -285,24 +285,21 @@ function App() {
             <Card
               image="Images/Mentors/1646152713583.jfif"
               title="Gunjan Madaan"
-              description="SDE 2 @Microsoft"
+              description="                                         SDE 2 @Microsoft"
               link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
               image="Images/Mentors/1664792642994.jfif"
-              title="Vaibhav Garg
-              "
+              title="Vaibhav Garg"
               link="https://www.linkedin.com/in/vaibhav-garg-a687bbb9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
               "
-              description="
-              Senior Software Engineer - II @SplashLearn"
+              description="Senior Software Engineer - II @SplashLearn"
             />
             <Card
               image="Images/Mentors/1671115311576.jfif"
               title="Rishika Gupta
               "
-              description="
-              Software Engineer @LinkedIn"
+              description="Software Engineer @LinkedIn"
               link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
@@ -310,8 +307,7 @@ function App() {
               title="Varun Kohli
 
               "
-              description="
-              Co-Founder @Coding Blocks"
+              description="Co-Founder @Coding Blocks"
               link="https://www.linkedin.com/in/kohli12?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FkDQmdkQQ2%2Bg%2BA3C2ETUlg%3D%3D
 
               "
@@ -321,8 +317,7 @@ function App() {
               title="Kartik Mathur
 
               "
-              description="
-              Founding Member @Coding Blocks"
+              description="Founding Member @Coding Blocks"
               link="https://www.linkedin.com/in/kartik-mathur/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
           </div>

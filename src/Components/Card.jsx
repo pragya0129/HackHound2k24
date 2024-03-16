@@ -8,13 +8,10 @@ function Card({ image, title, description, link }) {
       <img src={image} alt={title} />
       <div className="card-content">
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p style={{ whiteSpace: "pre-wrap" }}>{description}</p>
       </div>
       <a onClick={handleClick}>
-        <img
-          className="linkedin"
-          src="Images/linkedin.png"
-        />
+        <img className="linkedin" src="Images/linkedin.png" />
       </a>
     </div>
   );
