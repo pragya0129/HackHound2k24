@@ -1,0 +1,45 @@
+.spincard {
+  width: 100%; /* Card width set to 100% */
+  max-width: 500px;
+  min-width: 500px; /* Adjust maximum width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.711);
+}
+
+.spincard-image {
+  display: flex;
+  align-items: center;
+}
+
+.spincard-image img {
+  width: 50%; /* Adjust image width as needed */
+  max-width: 200px; /* Adjust maximum image width as needed */
+  margin-right: 10px;
+}
+
+.spincard-image h2 {
+  margin: 0;
+  color: black;
+  font-size: 1.7rem;
+  word-wrap: break-word; /* Allow long titles to break into multiple lines */
+  max-width: 50%; /* Adjust title maximum width as needed */
+}
+
+.spincard-description {
+  color: black;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .spincard {
+    max-width: 400px;
+    min-width: 300px;
+  }
+
+  .spincard-image h2 {
+    font-size: 1rem;
+  }
+}

@@ -14,6 +14,7 @@ import RegistrationCounter from "./Components/RegistrationCounter";
 import PrizeCounter from "./Components/PrizeCounter";
 import Card2 from "./Components/Card2";
 import WinnerCard from "./Components/WinnerCard";
+import SponsorInfoCard from "./Components/SponsorInfoCard";
 
 function App() {
   const images = [
@@ -219,7 +220,31 @@ function App() {
           <SponsorCard image="Images/cblogo-black.png" alt="" />
           <SponsorCard image="Images/Jamboree-logo.png" alt="" />
           <SponsorCard image="Images/interview-cake.jpg" alt="" />
+          {/* <SponsorCard
+            image="/HackHound2k24/public/Images/GMC LogoS.png"
+            alt=""
+          /> */}
         </div>
+
+        {/* <div className="SponsorInfo">
+          <SponsorInfoCard
+            image="/HackHound2k24/public/Images/InterviewBuddy Logo updated_White BG.png"
+            title="InterviewBuddy"
+            description="Winners and runners-up receive vouchers for 100% off"
+            description2="Participants receive vouchers for 90% off"
+            description3="Each system driven interview voucher is worth ₹1100"
+            description4="Vouchers are valid for three weeks"
+          />
+          <SponsorInfoCard
+            image="/HackHound2k24/public/Images/download.svg"
+            title="Verbwire"
+            description="Best Use of AI & Verbwire API - Up to $4,000 in Premium API Credits, across up to 15 teams {$45 credit per team member} 
+
+            Note: Goes to teams who use AI and the Verbwire API in building applications. Feel free to use MagicPilot.ai by Verbwire  to build web3 programs using AI."
+            description2="Most Innovative Use Of Verbwire API - Up to $1,000 in Premium API Credits, across up to 5 teams {$45 credit per team member}"
+            description3="Bonus- One-month free Verbwire Starter Subscription to all participants of the event. "
+          />
+        </div> */}
 
         <div className="participate">
           <h2>Why Participate</h2>

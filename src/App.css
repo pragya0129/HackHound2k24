@@ -460,6 +460,10 @@ p {
   min-height: 30px;
 }
 
+.sponsorcard img {
+  max-height: 30px;
+}
+
 #countdown {
   font-size: 36px;
   margin-top: 10px;
@@ -762,6 +766,20 @@ footer {
     opacity: 1;
     text-shadow: 0px 0px 1px #fff;
     transform: scale(1);
+  }
+}
+
+.SponsorInfo {
+  display: flex; /* Use flexbox */
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Adjust width as needed for smaller screens */
+@media (max-width: 768px) {
+  .SponsorInfo {
+    align-items: center; /* Center items horizontally */
   }
 }
 
