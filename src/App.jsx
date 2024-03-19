@@ -327,6 +327,9 @@ function App() {
               description="Software Engineer @LinkedIn"
               link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
+          </div>
+
+          <div className="cards">
             <Card
               image="Images/Mentors/1642883534969.jfif"
               title="Varun Kohli
@@ -345,7 +348,16 @@ function App() {
               description="Founding Member @Coding Blocks"
               link="https://www.linkedin.com/in/kartik-mathur/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
+            <Card
+              image="Images/Mentors/1672233980549.jfif"
+              title="Mahima Hans
+              "
+              description="Software Engineer @Adobe"
+              link="https://www.linkedin.com/in/mahima-hans-3b9976155"
+            />
           </div>
+
+
           {/* GM, vaibhav garg, rishika , vaibhav kolhi */}
           <h2>Mentors</h2>
           <div className="cards">
