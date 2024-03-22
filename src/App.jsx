@@ -220,31 +220,56 @@ function App() {
           <SponsorCard image="Images/cblogo-black.png" alt="" />
           <SponsorCard image="Images/Jamboree-logo.png" alt="" />
           <SponsorCard image="Images/interview-cake.jpg" alt="" />
-          {/* <SponsorCard
-            image="/HackHound2k24/public/Images/GMC LogoS.png"
+          <SponsorCard image="Images/GMC LogoS.png" alt="" />
+          <SponsorCard
+            image="Images/InterviewBuddy Logo updated_White BG.png"
             alt=""
-          /> */}
+          />
+          <SponsorCard image="Images/xyz.png" alt="" />
+          <SponsorCard image="Images/download.svg" alt="" />
         </div>
 
-        {/* <div className="SponsorInfo">
+        <div className="SponsorInfo">
           <SponsorInfoCard
-            image="/HackHound2k24/public/Images/InterviewBuddy Logo updated_White BG.png"
+            image="Images/InterviewBuddy Logo updated_White BG.png"
             title="InterviewBuddy"
-            description="Winners and runners-up receive vouchers for 100% off"
-            description2="Participants receive vouchers for 90% off"
-            description3="Each system driven interview voucher is worth ₹1100"
-            description4="Vouchers are valid for three weeks"
+            description="• Vouchers worth 100% off to winners and runners-up."
+            description2="• Vouchers worth 90% off to all participants."
+            description3="• System driven interview vouchers worth ₹1100"
+            description4="• Vouchers will be valid for three weeks"
+          />
+
+          <SponsorInfoCard
+            image="Images/cblogo-black.png"
+            title="Coding Blocks"
+            description="• Internship opportunities with PPO for top participants."
+            description2="• 30-40% off Coupons to all participants"
+            description3="• Bags, T-Shirts, Sippers, Notebooks and Schwag Packs for winners and selected participants."
+          />
+
+          <SponsorInfoCard
+            image="Images/cake_logo_white_on_blue.svg"
+            title="Interview Cake"
+            description="• 50 full access licenses for top 10 teams, allowing participants to access full coding interview prep course for 7 days."
+            description2="(approximately $50 USD value per license)"
+          />
+
+          <SponsorInfoCard
+            image="Images/xyz.png"
+            title="XYZ Domains"
+            description="• Top 5 teams receive 25 domains for creating website."
           />
           <SponsorInfoCard
-            image="/HackHound2k24/public/Images/download.svg"
+            image="Images/download.svg"
             title="Verbwire"
-            description="Best Use of AI & Verbwire API - Up to $4,000 in Premium API Credits, across up to 15 teams {$45 credit per team member} 
-
-            Note: Goes to teams who use AI and the Verbwire API in building applications. Feel free to use MagicPilot.ai by Verbwire  to build web3 programs using AI."
-            description2="Most Innovative Use Of Verbwire API - Up to $1,000 in Premium API Credits, across up to 5 teams {$45 credit per team member}"
-            description3="Bonus- One-month free Verbwire Starter Subscription to all participants of the event. "
+            descriptiontag1="• Best Use of AI & Verbwire API -"
+            description="Up to $4,000 in Premium API Credits, across up to 15 teams {$45 credit per team member}. Note: Goes to teams who use AI and the Verbwire API in building applications. Feel free to use MagicPilot.ai by Verbwire  to build web3 programs using AI."
+            descriptiontag2="• Most Innovative Use Of Verbwire API - "
+            description2="Up to $1,000 in Premium API Credits, across up to 5 teams {$45 credit per team member}"
+            descriptiontag3="• Bonus- "
+            description3="One-month free Verbwire Starter Subscription to all participants of the event. "
           />
-        </div> */}
+        </div>
 
         <div className="participate">
           <h2>Why Participate</h2>
@@ -356,7 +381,6 @@ function App() {
               link="https://www.linkedin.com/in/mahima-hans-3b9976155"
             />
           </div>
-
 
           {/* GM, vaibhav garg, rishika , vaibhav kolhi */}
           <h2>Mentors</h2>

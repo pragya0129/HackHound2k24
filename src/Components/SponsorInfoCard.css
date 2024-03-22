@@ -6,22 +6,22 @@
   border-radius: 5px;
   padding: 10px;
   margin: 20px;
-  background-color: rgba(255, 255, 255, 0.711);
+  background-color: white;
 }
 
 .spincard-image {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .spincard-image img {
   width: 50%; /* Adjust image width as needed */
   max-width: 200px; /* Adjust maximum image width as needed */
-  margin-right: 10px;
 }
 
 .spincard-image h2 {
-  margin: 0;
+  margin-left: 10px;
   color: black;
   font-size: 1.7rem;
   word-wrap: break-word; /* Allow long titles to break into multiple lines */
@@ -31,6 +31,7 @@
 .spincard-description {
   color: black;
   white-space: pre-wrap;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
