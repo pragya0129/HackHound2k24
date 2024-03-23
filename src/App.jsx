@@ -459,15 +459,16 @@ function App() {
           <h2>Our Team</h2>
           <div className="cards">
             <Card2
-              image="Images/Team/Dhruv.jpeg"
-              title="Dhruv Kalra"
-              description="Advisor"
-            />
-            <Card2
               image="Images/Team/Sahil.jpeg"
               title="Sahil Pahwa"
-              description="Advisor"
+              description="Lead Organiser"
             />
+            <Card2
+              image="Images/Team/Dhruv.jpeg"
+              title="Dhruv Kalra"
+              description="Lead Organiser"
+            />
+
             <Card2
               image="Images/Team/Harshiya.jpeg"
               title="Harshiya Saxena"
