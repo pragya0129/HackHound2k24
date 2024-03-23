@@ -462,17 +462,17 @@ function App() {
 
         <div className="team">
           <br></br>
-          <h2>Our Team</h2>
+          <h2>Organisers</h2>
           <div className="cards">
             <Card2
               image="Images/Team/Sahil.jpeg"
               title="Sahil Pahwa"
-              description="Lead Organiser"
+              description="Advisor"
             />
             <Card2
               image="Images/Team/Dhruv.jpeg"
               title="Dhruv Kalra"
-              description="Lead Organiser"
+              description="Advisor"
             />
 
             <Card2
