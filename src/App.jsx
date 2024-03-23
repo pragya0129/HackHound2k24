@@ -420,7 +420,7 @@ function App() {
             <Card
               image="Images/Mentors/pulkit batra.jfif"
               title="Pulkit Batra"
-              description="Upcoming Intern @Google"
+              description="Upcoming Intern @Expedia"
               link="https://www.linkedin.com/in/pulkitbxtra/"
             />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
