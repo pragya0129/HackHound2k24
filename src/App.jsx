@@ -417,6 +417,12 @@ function App() {
               description="Upcoming Intern @Google"
               link="https://www.linkedin.com/in/aneesh-gupta-b819781b7"
             />
+            <Card
+              image="Images/Mentors/pulkit batra.jfif"
+              title="Pulkit Batra"
+              description="Upcoming Intern @Google"
+              link="https://www.linkedin.com/in/pulkitbxtra/"
+            />
             {/* <Card image="public\Images\Arijit Roy2.jpg" title="Arijit Roy" description="Backend & ML @Docsumo || 6x Hackathon Winner"/> */}
             {/* <Card image="public\Images\Divyansh Gandhi.jpg" title="Divyansh Gandhi" description="Founder of Stimuli Technologies || Flutter Lead at LikeMinds"/> */}
           </div>
