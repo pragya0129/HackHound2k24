@@ -260,6 +260,18 @@ function App() {
             description="• Top 5 teams receive 25 domains for creating website."
           />
           <SponsorInfoCard
+            image="Images/Colored.png"
+            title="Verbwire"
+            descriptiontag1="Best hack built on Ploygon: "
+            description="$200"
+          />
+          <SponsorInfoCard
+            image="Images/Untitled.png"
+            title="Verbwire"
+            descriptiontag1="Best hack built on Ethereum: "
+            description="$100"
+          />
+          <SponsorInfoCard
             image="Images/download.svg"
             title="Verbwire"
             descriptiontag1="• Best Use of AI & Verbwire API -"
@@ -333,29 +345,6 @@ function App() {
           <h2>Judges</h2>
           <div className="cards">
             <Card
-              image="Images/Mentors/1646152713583.jfif"
-              title="Gunjan Madaan"
-              description="SDE 2 @Microsoft"
-              link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            />
-            <Card
-              image="Images/Mentors/1664792642994.jfif"
-              title="Vaibhav Garg"
-              link="https://www.linkedin.com/in/vaibhav-garg-a687bbb9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-              "
-              description="Senior Software Engineer - II @SplashLearn"
-            />
-            <Card
-              image="Images/Mentors/1671115311576.jfif"
-              title="Rishika Gupta
-              "
-              description="Software Engineer @LinkedIn"
-              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            />
-          </div>
-
-          <div className="cards">
-            <Card
               image="Images/Mentors/1642883534969.jfif"
               title="Varun Kohli
 
@@ -372,6 +361,29 @@ function App() {
               "
               description="Founding Member @Coding Blocks"
               link="https://www.linkedin.com/in/kartik-mathur/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
+            <Card
+              image="Images/Mentors/1646152713583.jfif"
+              title="Gunjan Madaan"
+              description="SDE 2 @Microsoft"
+              link="https://www.linkedin.com/in/gunjanmadaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
+          </div>
+
+          <div className="cards">
+            <Card
+              image="Images/Mentors/1664792642994.jfif"
+              title="Vaibhav Garg"
+              link="https://www.linkedin.com/in/vaibhav-garg-a687bbb9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+              "
+              description="Senior Software Engineer - II @SplashLearn"
+            />
+            <Card
+              image="Images/Mentors/1671115311576.jfif"
+              title="Rishika Gupta
+              "
+              description="Software Engineer @LinkedIn"
+              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
               image="Images/Mentors/1672233980549.jfif"
@@ -474,7 +486,6 @@ function App() {
               title="Dhruv Kalra"
               description="Advisor"
             />
-
             <Card2
               image="Images/Team/Harshiya.jpeg"
               title="Harshiya Saxena"
