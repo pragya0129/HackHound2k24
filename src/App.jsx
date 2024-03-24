@@ -319,9 +319,8 @@ function App() {
 
         <h2>Community Partner</h2>
         <div className="cards">
-          <CommunityPartnersCard image="/HackHound2k24/public/Images/owasp.png" />
+          <CommunityPartnersCard image="Images/owasp.png" />
         </div>
-
 
         {/* <section className="register-btn">
           <a href="#">
