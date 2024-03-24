@@ -15,6 +15,7 @@ import PrizeCounter from "./Components/PrizeCounter";
 import Card2 from "./Components/Card2";
 import WinnerCard from "./Components/WinnerCard";
 import SponsorInfoCard from "./Components/SponsorInfoCard";
+import CommunityPartnersCard from "./Components/CommunityPartnersCard";
 
 function App() {
   const images = [
@@ -194,6 +195,39 @@ function App() {
 
         <Footer />
         <br></br>
+
+        <div className="participate">
+          <h2>Why Participate</h2>
+          <div className="cards">
+            {/* <Card2
+              image="Images/bus.gif"
+              title="Pickup and Drop"
+              description=""
+            /> */}
+            <Card2 image="Images/mentors.gif" title="Mentors" description="" />
+            <Card2
+              image="Images/problem-solving.gif"
+              title="Problem Cases"
+              description=""
+            />
+            <Card2
+              image="Images/spring_giveaway_utm_imgs_v2.gif"
+              title="Cash Prizes"
+              description=""
+            />
+            <Card2
+              image="Images/catering.gif"
+              title="Free Food"
+              description=""
+            />
+            <Card2
+              image="Images/open-gift.gif"
+              title="Goodies"
+              description=""
+            />
+          </div>
+        </div>
+        <br></br>
         <h2>Prizes</h2>
         <br></br>
         <div className="cards">
@@ -209,25 +243,6 @@ function App() {
           <span className="internship">PPO</span>
           <br></br> opportunity
         </h3>
-
-        <br></br>
-        <h2>Sponsors</h2>
-        <div className="cards">
-          <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
-          <SponsorCard image="Images/Colored.png" alt="POLYGON LOGO" />
-          <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
-          <SponsorCard image="Images/finlatics.png" alt="" />
-          <SponsorCard image="Images/cblogo-black.png" alt="" />
-          <SponsorCard image="Images/Jamboree-logo.png" alt="" />
-          <SponsorCard image="Images/interview-cake.jpg" alt="" />
-          <SponsorCard image="Images/GMC LogoS.png" alt="" />
-          <SponsorCard
-            image="Images/InterviewBuddy Logo updated_White BG.png"
-            alt=""
-          />
-          <SponsorCard image="Images/xyz.png" alt="" />
-          <SponsorCard image="Images/download.svg" alt="" />
-        </div>
 
         <div className="SponsorInfo">
           <SponsorInfoCard
@@ -283,39 +298,30 @@ function App() {
           />
         </div>
 
-        <div className="participate">
-          <h2>Why Participate</h2>
-          <div className="cards">
-            {/* <Card2
-              image="Images/bus.gif"
-              title="Pickup and Drop"
-              description=""
-            /> */}
-            <Card2 image="Images/mentors.gif" title="Mentors" description="" />
-            <Card2
-              image="Images/problem-solving.gif"
-              title="Problem Cases"
-              description=""
-            />
-            <Card2
-              image="Images/spring_giveaway_utm_imgs_v2.gif"
-              title="Cash Prizes"
-              description=""
-            />
-            <Card2
-              image="Images/catering.gif"
-              title="Free Food"
-              description=""
-            />
-            <Card2
-              image="Images/open-gift.gif"
-              title="Goodies"
-              description=""
-            />
-          </div>
+        <br></br>
+        <h2>Sponsors</h2>
+        <div className="cards">
+          <SponsorCard image="Images/DevColored.png" alt="DEVFOLIO LOGO" />
+          <SponsorCard image="Images/Colored.png" alt="POLYGON LOGO" />
+          <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
+          <SponsorCard image="Images/finlatics.png" alt="" />
+          <SponsorCard image="Images/cblogo-black.png" alt="" />
+          <SponsorCard image="Images/Jamboree-logo.png" alt="" />
+          <SponsorCard image="Images/interview-cake.jpg" alt="" />
+          <SponsorCard image="Images/GMC LogoS.png" alt="" />
+          <SponsorCard
+            image="Images/InterviewBuddy Logo updated_White BG.png"
+            alt=""
+          />
+          <SponsorCard image="Images/xyz.png" alt="" />
+          <SponsorCard image="Images/download.svg" alt="" />
         </div>
 
-        <br></br>
+        <h2>Community Partner</h2>
+        <div className="cards">
+          <CommunityPartnersCard image="/HackHound2k24/public/Images/owasp.png" />
+        </div>
+
 
         {/* <section className="register-btn">
           <a href="#">
@@ -326,7 +332,7 @@ function App() {
             Register Now
           </a>
         </section> */}
-        <br></br>
+
         {/* <div className="PastSp">
           <h2>Past Sponsors</h2>
           <div className="cards">
