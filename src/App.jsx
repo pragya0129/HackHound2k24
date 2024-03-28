@@ -320,6 +320,8 @@ function App() {
         <h2>Community Partner</h2>
         <div className="cards">
           <CommunityPartnersCard image="Images/owasp.png" />
+          <CommunityPartnersCard image="Images/fresources.png" />
+          <CommunityPartnersCard image="Images/gdscnsut.jfif" />
         </div>
 
         {/* <section className="register-btn">
