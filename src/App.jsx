@@ -16,6 +16,7 @@ import Card2 from "./Components/Card2";
 import WinnerCard from "./Components/WinnerCard";
 import SponsorInfoCard from "./Components/SponsorInfoCard";
 import CommunityPartnersCard from "./Components/CommunityPartnersCard";
+import GuestCard from "./Components/GuestCard";
 
 function App() {
   const images = [
@@ -233,10 +234,7 @@ function App() {
         <div className="cards">
           <WinnerCard />
         </div>
-        <h4 className="moreprizes">
-          * More prizes for the top-3 teams are to be added above and additional
-          sponsored prizes will be announced soon..
-        </h4>
+
         <h3 className="win">
           Chance to win<br></br> <span className="internship">INTERNSHIPS</span>
           <br></br> with<br></br>
@@ -306,7 +304,6 @@ function App() {
           <SponsorCard image="Images/Untitled.png" alt="ETHINDIA LOGO" />
           <SponsorCard image="Images/finlatics.png" alt="" />
           <SponsorCard image="Images/cblogo-black.png" alt="" />
-          <SponsorCard image="Images/Jamboree-logo.png" alt="" />
           <SponsorCard image="Images/interview-cake.jpg" alt="" />
           <SponsorCard image="Images/GMC LogoS.png" alt="" />
           <SponsorCard
@@ -319,7 +316,6 @@ function App() {
 
         <h2>Community Partner</h2>
         <div className="cards">
-          <CommunityPartnersCard image="Images/owasp.png" />
           <CommunityPartnersCard image="Images/fresources.png" />
           <CommunityPartnersCard image="Images/gdscnsut.jfif" />
         </div>
@@ -349,6 +345,16 @@ function App() {
         </div> */}
 
         <div className="PastJudges">
+          <h2>Guest of Honour</h2>
+          <div className="cards">
+            <GuestCard
+              image="Images/Mentors/1671115311576.jfif"
+              title="Rishika Gupta"
+              description="Software Engineer @LinkedIn"
+              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
+          </div>
+
           <h2>Judges</h2>
           <div className="cards">
             <Card
@@ -384,13 +390,6 @@ function App() {
               link="https://www.linkedin.com/in/vaibhav-garg-a687bbb9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
               "
               description="Senior Software Engineer - II @SplashLearn"
-            />
-            <Card
-              image="Images/Mentors/1671115311576.jfif"
-              title="Rishika Gupta
-              "
-              description="Software Engineer @LinkedIn"
-              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
               image="Images/Mentors/1672233980549.jfif"
@@ -481,49 +480,51 @@ function App() {
 
         <div className="team">
           <br></br>
-          <h2>Organisers</h2>
+          <h2>Our Team</h2>
           <div className="cards">
             <Card2
               image="Images/Team/Sahil.jpeg"
               title="Sahil Pahwa"
-              description="Advisor"
+              description="Organiser"
             />
             <Card2
               image="Images/Team/Dhruv.jpeg"
               title="Dhruv Kalra"
-              description="Advisor"
-            />
-            <Card2
-              image="Images/Team/Harshiya.jpeg"
-              title="Harshiya Saxena"
-              description="Event Manager"
-            />
-            <Card2
-              image="Images/Team/Kushagra.jpeg"
-              title="Kushagra Sharma"
-              description="Finance Manager"
+              description="Organiser"
             />
           </div>
           <div className="cards">
             <Card2
+              image="Images/Team/Harshiya.jpeg"
+              title="Harshiya Saxena"
+              description="Organiser"
+            />
+            <Card2
+              image="Images/Team/Kushagra.jpeg"
+              title="Kushagra Sharma"
+              description="Organiser"
+            />
+            <Card2
               image="Images/Team/Pragya.png"
               title="Pragya Gaur"
-              description="Technical Manager"
+              description="Organiser"
             />
+          </div>
+          <div className="cards">
             <Card2
               image="Images/Team/Sara.jpg"
               title="Sara Mishra"
-              description="PR and Marketing Manager"
+              description="Organiser"
             />
             <Card2
               image="Images/Team/Prakhar.jpeg"
               title="Prakhar Agarwal"
-              description="Logistic Manager"
+              description="Organiser"
             />
             <Card2
               image="Images/Team/Abhijeet.jpg"
               title="Abhijeet Sharma"
-              description="Resource Manager"
+              description="Organiser"
             />
           </div>
         </div>

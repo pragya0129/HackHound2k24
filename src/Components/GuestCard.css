@@ -1,0 +1,48 @@
+/* styles.css */
+.guest-card {
+  display: flex; /* Use flexbox to position content */
+  align-items: center; /* Center content vertically */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgb(255, 255, 255);
+  margin: 10px;
+  max-width: 360px; /* Adjust width as needed */
+  font-size: 20px;
+}
+
+.guest-image {
+  flex: 1; /* Take remaining space */
+  margin: 10px;
+  max-width: 50%; /* Image takes half of the card width */
+  object-fit: cover; /* Ensure the image covers the entire space */
+  border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
+}
+
+.guest-card-content {
+  flex: 1; /* Take remaining space */
+  padding: 20px; /* Add padding for content */
+  text-align: left; /* Align text to the left */
+}
+
+.guest-card-content h2 {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.guest-card-content p {
+  margin-bottom: 10px; /* Add space between description and LinkedIn button */
+  font-size: 0.9rem;
+}
+
+.guest-card-content a {
+  display: block; /* Ensure LinkedIn button takes full width */
+  margin-top: 10px; /* Add space between description and LinkedIn button */
+}
+
+.guest-card .linkedin {
+  width: 30%;
+  cursor: pointer;
+}
+
+
+
