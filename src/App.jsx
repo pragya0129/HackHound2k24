@@ -20,10 +20,7 @@ import GuestCard from "./Components/GuestCard";
 import Timeline from "./Components/Timeline";
 
 function App() {
-  const timelineimg = [
-    "/HackHound2k24/public/Images/day1.png",
-    "Images/day2.png",
-  ];
+  const timelineimg = ["Images/day1.png", "Images/day2.png"];
 
   let lastScrollTop = 0; // This variable will hold the last scroll position
 
