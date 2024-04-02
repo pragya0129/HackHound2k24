@@ -1,27 +1,44 @@
 /* styles.css */
+@keyframes neon {
+  0% {
+    filter: none; /* Reset filter */
+    box-shadow: 0 0 30px rgb(251, 1, 1);
+  }
+  50% {
+    filter: none; /* Reset filter */
+    box-shadow: 0 0 30px rgb(242, 255, 1);
+  }
+  100% {
+    filter: none; /* Reset filter */
+    box-shadow: 0 0 30px rgb(0, 252, 1);
+  }
+}
+
 .guest-card {
-  display: flex; /* Use flexbox to position content */
-  align-items: center; /* Center content vertically */
+  display: flex;
+  align-items: center;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 0 40px rgb(255, 255, 255);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
   margin: 10px;
-  max-width: 360px; /* Adjust width as needed */
+  max-width: 360px;
   font-size: 20px;
+  animation: neon 5s infinite alternate;
 }
 
 .guest-image {
-  flex: 1; /* Take remaining space */
+  flex: 1;
   margin: 10px;
-  max-width: 50%; /* Image takes half of the card width */
-  object-fit: cover; /* Ensure the image covers the entire space */
-  border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
+  max-width: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgb(114, 114, 114);
+  border-radius: 8px 0 0 8px;
 }
 
 .guest-card-content {
-  flex: 1; /* Take remaining space */
-  padding: 20px; /* Add padding for content */
-  text-align: left; /* Align text to the left */
+  flex: 1;
+  padding: 20px;
+  text-align: left;
 }
 
 .guest-card-content h2 {
@@ -30,13 +47,13 @@
 }
 
 .guest-card-content p {
-  margin-bottom: 10px; /* Add space between description and LinkedIn button */
+  margin-bottom: 10px;
   font-size: 0.9rem;
 }
 
 .guest-card-content a {
-  display: block; /* Ensure LinkedIn button takes full width */
-  margin-top: 10px; /* Add space between description and LinkedIn button */
+  display: block;
+  margin-top: 10px;
 }
 
 .guest-card .linkedin {
@@ -44,5 +61,24 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .guest-card {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 40px;
+  }
 
+  .guest-card h2 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
 
+  .guest-card-content p {
+    font-size: 1.2rem;
+    margin-left: 20px;
+  }
+
+  .guest-card .linkedin {
+    margin-left: 20px;
+  }
+}

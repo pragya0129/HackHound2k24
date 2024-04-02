@@ -1,0 +1,96 @@
+.tslider-gallery {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.tgallery-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.tgallery-image {
+  height: 100%;
+  width: 100%; 
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+.tmain-image {
+  flex: 1;
+}
+
+.tside-image {
+  flex: 1;
+  opacity: 0.5;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.tprev-btn,
+.tnext-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tprev-btn:hover,
+.tnext-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tprev-btn {
+  left: 10px;
+}
+
+.tnext-btn {
+  right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .tslider-gallery {
+    height: auto; 
+  }
+
+  .tgallery-container {
+    align-items: center;
+  }
+
+  .tgallery-image {
+    max-width: 100%; 
+  }
+
+  .tprev-btn,
+  .tnext-btn {
+    position: absolute;
+    top: calc(50% - 20px); 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .tprev-btn:hover,
+  .tnext-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .tprev-btn {
+    left: 10px;
+  }
+
+  .tnext-btn {
+    right: 10px;
+  }
+}

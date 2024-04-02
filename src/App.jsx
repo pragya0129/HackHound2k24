@@ -17,14 +17,12 @@ import WinnerCard from "./Components/WinnerCard";
 import SponsorInfoCard from "./Components/SponsorInfoCard";
 import CommunityPartnersCard from "./Components/CommunityPartnersCard";
 import GuestCard from "./Components/GuestCard";
+import Timeline from "./Components/Timeline";
 
 function App() {
-  const images = [
-    "/public/Images/hackhound 2k23 photos/IMG1.jpg",
-    "/public/Images/hackhound 2k23 photos/IMG1.jpg",
-    "/public/Images/hackhound 2k23 photos/IMG1.jpg",
-    "/public/Images/hackhound 2k23 photos/IMG1.jpg",
-    "/public/Images/hackhound 2k23 photos/IMG1.jpg",
+  const timelineimg = [
+    "/HackHound2k24/public/Images/hackhound 2k23 photos/img12.jpg",
+    "/HackHound2k24/public/Images/hackhound 2k23 photos/img10.jpg",
   ];
 
   let lastScrollTop = 0; // This variable will hold the last scroll position
@@ -447,7 +445,9 @@ function App() {
         </div>
 
         <hr></hr>
-
+        {/* <div>
+          <Timeline images={timelineimg} />
+        </div> */}
         <div className="gallery" id="gallery">
           <h2>HackHound 2k23 Flashback</h2>
           <RegistrationCounter />
