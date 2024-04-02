@@ -273,7 +273,7 @@ function App() {
           <SponsorInfoCard
             image="Images/Colored.png"
             title="Verbwire"
-            descriptiontag1="Best hack built on Ploygon: "
+            descriptiontag1="Best hack built on Polygon: "
             description="$200"
           />
           <SponsorInfoCard
@@ -343,15 +343,6 @@ function App() {
         </div> */}
 
         <div className="PastJudges">
-          <h2>Guest of Honour</h2>
-          <div className="cards">
-            <GuestCard
-              image="Images/Mentors/1671115311576.jfif"
-              title="Rishika Gupta"
-              description="Software Engineer @LinkedIn"
-              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            />
-          </div>
 
           <h2>Judges</h2>
           <div className="cards">
@@ -382,6 +373,12 @@ function App() {
           </div>
 
           <div className="cards">
+            <Card
+              image="Images/Mentors/1671115311576.jfif"
+              title="Rishika Gupta"
+              description="Software Engineer @LinkedIn"
+              link="https://www.linked  in.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
             <Card
               image="Images/Mentors/1664792642994.jfif"
               title="Vaibhav Garg"
