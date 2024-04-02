@@ -20,10 +20,7 @@ import GuestCard from "./Components/GuestCard";
 import Timeline from "./Components/Timeline";
 
 function App() {
-  const timelineimg = [
-    "/HackHound2k24/public/Images/hackhound 2k23 photos/img12.jpg",
-    "/HackHound2k24/public/Images/hackhound 2k23 photos/img10.jpg",
-  ];
+  const timelineimg = ["Images/day1.png", "Images/day2.png"];
 
   let lastScrollTop = 0; // This variable will hold the last scroll position
 
@@ -227,6 +224,10 @@ function App() {
           </div>
         </div>
         <br></br>
+        <br></br>
+        <div>
+          <Timeline images={timelineimg} />
+        </div>
         <h2>Prizes</h2>
         <br></br>
         <div className="cards">
@@ -343,7 +344,6 @@ function App() {
         </div> */}
 
         <div className="PastJudges">
-
           <h2>Judges</h2>
           <div className="cards">
             <Card
@@ -442,9 +442,7 @@ function App() {
         </div>
 
         <hr></hr>
-        {/* <div>
-          <Timeline images={timelineimg} />
-        </div> */}
+
         <div className="gallery" id="gallery">
           <h2>HackHound 2k23 Flashback</h2>
           <RegistrationCounter />
