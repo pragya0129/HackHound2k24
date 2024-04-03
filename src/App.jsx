@@ -480,46 +480,46 @@ function App() {
             <Card2
               image="Images/Team/Sahil.jpeg"
               title="Sahil Pahwa"
-              description="Organiser"
+              description="Event Manager"
             />
             <Card2
               image="Images/Team/Dhruv.jpeg"
               title="Dhruv Kalra"
-              description="Organiser"
+              description="Technical Manager"
             />
           </div>
           <div className="cards">
             <Card2
               image="Images/Team/Harshiya.jpeg"
               title="Harshiya Saxena"
-              description="Organiser"
+              description="Event Manager"
             />
             <Card2
               image="Images/Team/Kushagra.jpeg"
               title="Kushagra Sharma"
-              description="Organiser"
+              description="Finance Manager"
             />
             <Card2
               image="Images/Team/Pragya.png"
               title="Pragya Gaur"
-              description="Organiser"
+              description="Technical Manager"
             />
           </div>
           <div className="cards">
             <Card2
               image="Images/Team/Sara.jpg"
               title="Sara Mishra"
-              description="Organiser"
+              description="PR and Marketing Manager"
             />
             <Card2
               image="Images/Team/Prakhar.jpeg"
               title="Prakhar Agarwal"
-              description="Organiser"
+              description="Logistic Manager"
             />
             <Card2
               image="Images/Team/Abhijeet.jpg"
               title="Abhijeet Sharma"
-              description="Organiser"
+              description="Resource Manager"
             />
           </div>
         </div>
