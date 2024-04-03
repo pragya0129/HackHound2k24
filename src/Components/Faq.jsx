@@ -81,9 +81,7 @@ const Faq = () => {
             {/* Other FAQ items */}
           </div>
           <p className="morequeries">
-            <b>Note: </b>If you have any remaining doubts, please feel free to
-            raise a ticket regarding your query on our Discord channel, and we
-            will resolve it as soon as possible
+            <b>Note: </b>If you have any remaining doubts, please feel free to raise a ticket regarding your query on our Discord channel, and we will resolve it as soon as possible
           </p>
         </div>
       </section>
