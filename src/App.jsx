@@ -18,6 +18,7 @@ import SponsorInfoCard from "./Components/SponsorInfoCard";
 import CommunityPartnersCard from "./Components/CommunityPartnersCard";
 import GuestCard from "./Components/GuestCard";
 import Timeline from "./Components/Timeline";
+import Faq from "./Components/Faq";
 
 function App() {
   const timelineimg = ["Images/day1.png", "Images/day2.png"];
@@ -524,6 +525,11 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div>
+        <Faq />
+      </div>
+
       <div id="about">
         <About />
       </div>
