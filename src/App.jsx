@@ -378,7 +378,7 @@ function App() {
               image="Images/Mentors/1671115311576.jfif"
               title="Rishika Gupta"
               description="Software Engineer @LinkedIn"
-              link="https://www.linked  in.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              link="https://www.linkedin.com/in/rishikagupta-rg/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
             <Card
               image="Images/Mentors/1664792642994.jfif"
