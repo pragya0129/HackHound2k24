@@ -171,12 +171,6 @@ function App() {
               <br></br>
             </div>
           </h1>
-          <div
-            className="apply-button"
-            data-hackathon-slug="hackhound-2"
-            data-button-theme="light"
-            style={{ height: "44px", width: "312px" }}
-          ></div>
 
           <p className="animtext">
             Get ready to code, collaborate, and innovate!
