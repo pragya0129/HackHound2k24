@@ -3,20 +3,10 @@ import Footer from "../Components/Footer";
 import Card from "../Components/Card";
 import SponsorCard from "../Components/SponsorCard";
 import SocialButton from "../Components/SocialButton";
-import { useEffect } from "react";
+
 import Gallery from "./Gallery";
 
 function Home() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
   return (
     <div>
       <div className="container">
