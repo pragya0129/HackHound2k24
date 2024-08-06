@@ -483,31 +483,31 @@ p {
   font-size: 1.2rem;
 }
 
-  .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
-  .cards .card .img {
-    border-radius: 50%;
-  }
+.cards .card .img {
+  border-radius: 50%;
+}
 
-  .card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    margin: 10px;
-    padding: 20px;
-    min-width: 200px;
-    box-shadow: 0 0 40px rgb(255, 255, 255);
-    text-align: center;
-    align-items: center;
-    max-width: 200px;
-    font: 20%;
-  }
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  padding: 20px;
+  min-width: 200px;
+  box-shadow: 0 0 40px rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  max-width: 200px;
+  font: 20%;
+}
 
 .card2 {
   min-height: 280px;
@@ -877,7 +877,7 @@ footer {
 
   .top {
     background-position: center; /* Ensures the background is centered */
-    background: url("https://hackhound.tech/Images/mobile.gif");
+    background: url("https://pragya0129.github.io/HackHound2k24/Images/mobile.gif");
   }
 
   .internship {
